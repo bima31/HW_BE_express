@@ -1,8 +1,11 @@
 # technical test Back-End with Express
 
 ## Development server
-
-Jalankan `yarn start` untuk memulai server pengembangan. Navigasikan ke `http://localhost:8080/`.
+- buat database di postgres dengan nama `testdb`.
+- Jalankan `yarn start` atau `npm start` untuk memulai server pengembangan, 
+- dan otomatis membuat beberapa tabel sesuai dengan data di folder model `./app/models/` beserta isinya, bisa dilihat di `index.js`.
+- Navigasikan ke `http://localhost:8080/`.
+- jalankan API `signup` untuk mendaftarkan user sebelum `signin`.
 
 
 ## link frontEnd
